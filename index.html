@@ -8,8 +8,68 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <h1 class="text-center text-4xl font-bold ">Hellow Bangladesh</h1>
+<body class="bg-[#F4F7FF] py-1">
+    <header class="bg-[#FFFFFF] mt-3 max-w-[1250px] px-5 py-3 shadow-md rounded-lg mx-auto" id="header">
+        <nav class=" flex items-center justify-between" id="nav">
+            <div class="flex items-center gap-2">
+                <img src="assets/logo.png" alt="">
+                <div class="">
+                    <h1 class="text-4xl">Dev<span class="font-bold">Board</span> </h1>
+                </div>
+            </div>
+            <div class="flex items-center gap-10">
+                <div class="flex items-center gap-2">
+                    <img src="assets/checkbox.png" alt="">
+                    <div class="">
+                        <h1 class="text-2xl font-bold">0<span>0</span> </h1>
+                    </div>
+                </div>
+                <img src="assets/theme-btn.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main class="mt-5 w-[1250px] mx-auto" id="main">
+        <div class="flex gap-6  ">
+            <section class="bg-[#FFFFFF] shadow-md p-3 max-w-[1300px]" id="sections">
+            <div class="grid grid-cols-3 gap-6">
+                <div class="bg-[#F4F7FF] p-5 rounded-lg flex items-center gap-2">
+                <div class="bg-[#FFFFFF] p-2 rounded-full">
+                    <img src="assets/checkbox.png" alt="">
+                </div>
+                <div class="">
+                    <h1 class="text-xl ">Task Assigned</h1>
+                    <p class="text-2xl font-bold">0<span>6</span></p>
+                </div>
+            </div>
+             <div class="bg-linear-to-r from-blue-500 to-cyan-500 p-5 rounded-lg flex items-center gap-2">
+                <div class="">
+                    <img src="assets/board.png" alt="">
+                </div>
+                <div class="text-xl text-[#FFFFFF] font-medium">
+                    <h1 class=" ">Discover Somthing</h1>
+                    <p class="">New Today !</p>
+                </div>
+            </div>
+               <div class="bg-[#F4F7FF] p-5 rounded-lg flex items-center gap-2">
+                <div class="bg-[#FFFFFF] p-2 rounded-full">
+                    <img src="assets/checkbox.png" alt="">
+                </div>
+                <div class="">
+                    <h1 class="text-xl ">Task Assigned</h1>
+                    <p class="text-2xl font-bold">0<span>6</span></p>
+                </div>
+            </div>
+            </div>
+        </section  >
+
+        <section class="bg-[#FFFFFF] shadow-md p-3 w-[250px] mx-auto">
+            <div class="mt-3 flex items-center justify-center gap-3">
+                <img src="assets/activity.png" alt="">
+                <h1 class="">Activity Log</h1>
+            </div>
+        </section>
+        </div>
+    </main>
 
     <script src="style.js"></script>
 </body>
