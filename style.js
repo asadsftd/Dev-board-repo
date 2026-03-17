@@ -107,4 +107,7 @@ document.getElementById("clear")
 .addEventListener('click', function(){
     document.getElementById("box").style.display='none';
 })
-
+document.getElementById("click")
+.addEventListener('click', function(event){
+    window.location.href='index2.html';
+});
