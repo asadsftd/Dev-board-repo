@@ -24,4 +24,7 @@ p,li{
        z-index: 1;
         top: -12px;
     }
+    div{
+        margin-bottom: 15px;
+    }
 }

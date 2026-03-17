@@ -51,9 +51,7 @@ button{
        z-index: 1;
         top: -12px;
     }
-    div{
-        margin-bottom: 15px;
-    }
+   
     #main{
         width: 95%;
         margin: 80px auto;
