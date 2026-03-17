@@ -35,8 +35,20 @@ button{
     }
     #header{
         width: 100%;
+        position: fixed;
+        margin-top: 0px;
+        z-index: 1;
+    }
+    body{
+        margin-top: 0px;
     }
     #main{
         width: 100%;
+    }
+    #ck{
+        gap: 10px;
+    }
+    .btn{
+        margin-top: 12px;
     }
 }
