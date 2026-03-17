@@ -10,6 +10,7 @@ button{
 @media screen and (max-width:576px){
     body{
         padding-bottom: 40px;
+        padding-top: 0px;
     }
     #section-one{
         width: 100%;
@@ -45,13 +46,14 @@ button{
     }
     #header{
         width: 100%;
-       
-        
+       position: fixed;
+       z-index: 1;
+        top: -12px;
     }
     
     #main{
         width: 95%;
-        margin: 20px auto;
+        margin: 60px auto;
        
     }
     #ck{
