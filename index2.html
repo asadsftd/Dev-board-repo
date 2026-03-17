@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="bg-gray-100 py-5">
    <header class="bg-[#FFFFFF] mt-3 max-w-[1250px] px-5 py-3 shadow-md rounded-lg mx-auto" id="header">
         <nav class=" flex items-center justify-between" id="nav">
             <div class="flex items-center gap-2">
@@ -17,12 +17,72 @@
                     <h1 id="title" class="text-4xl">Dev<span class="font-bold">Board</span> </h1>
                 </div>
             </div>
-            <button id="back" class="btn btn-primary">Backtodesk</button>
+            <button id="back" class="btn btn-primary">Back to Desk</button>
         </nav>
     </header> 
 
-    <main class="mt-5 w-[1250px] mx-auto" id="main">
-        
+    <main class="mt-10 w-[1250px] mx-auto" id="main">
+        <div class="bg-[#FFFFFF] py-5 pl-3 rounded-lg">
+            <h1 class="text-2xl">
+                Question-1: What are the different ways to select an element in the DOM?
+            </h1>
+            <p class="text-xl mt-3">
+                There are several common ways to select elements in the DOM (Document Object Model) using JavaScript. Each method is suited for different situations:
+            </p>
+            <ol class="text-lg">
+                <li>1. Select by ID</li>
+                <li>2. Select by ClassName</li>
+                <li>3. Select by Tag Name</li>
+                <li>4. Select using CSS Selectors (querySelector)</li>
+                <li>5. Select All using CSS Selectors (querySelectorAll)</li>
+                
+            </ol>
+        </div>
+
+        <div class="bg-[#FFFFFF] py-5 pl-3 rounded-lg">
+            <h1 class="text-2xl">
+                Question-2: What is the difference between innerHTML, innerText, and textContent ?
+            </h1>
+           
+            <ol class="text-lg">
+                <li>1. innerHTML</li>
+                <p class="">Gets/sets content with HTML tags</p>
+                <p class="">element.innerHTML = "Hello";</p>
+                <li>2. innerText</li>
+                <p class="">Gets only visible text</p>
+                <p class="">element.innerText = "Hello";</p>
+              
+        </div>
+        <div class="bg-[#FFFFFF] py-5 pl-3 rounded-lg">
+            <h1 class="text-2xl">
+                Question-3: What is event delegation in the DOM?
+            </h1>
+            <p class="text-xl">
+                Event delegation is a technique where you attach a single event listener to a parent element instead of adding listeners to multiple child elements.
+            </p>
+          </div>
+        <div class="bg-[#FFFFFF] py-5 pl-3 rounded-lg">
+            <h1 class="text-2xl">
+               Question-4: What is event bubbling in the DOM?
+            </h1>
+            <p class="text-xl">
+                Event bubbling is a process where an event starts from the target element and moves up to its parent elements in the DOM.
+            </p>
+          </div>
+        <div class="bg-[#FFFFFF] py-5 pl-3 rounded-lg">
+            <h1 class="text-2xl">
+               Question-5: How do you create, add, and remove elements using JavaScript?
+            </h1>
+            <ol>
+                <li>1. Create Element</li>
+                <p class="">const div = document.createElement("div");</p>
+                <li>2. Add Element</li>
+                <p class="">document.body.appendChild(div); </p>
+                <li>3. Remove Element</li>
+                <p class="">div.remove(); </p>
+            </ol>
+          </div>
+
     </main>
 
     <script src="style2.js"></script>

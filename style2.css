@@ -1,0 +1,27 @@
+div{
+    margin-bottom: 10px;
+}
+p,li{
+    font-size: 20px;
+}
+@media screen and (max-width:576px){
+    #main{
+        width: 100%;
+        margin-top: 80px;
+    }
+    h1,p{
+        width: 98%;
+    }
+    #title{
+        font-size: 25px;
+    }
+    #img{
+        width: 40px;
+    }
+     #header{
+        width: 100%;
+       position: fixed;
+       z-index: 1;
+        top: -12px;
+    }
+}
